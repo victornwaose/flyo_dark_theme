@@ -54,21 +54,23 @@ nav ul li a{
   text-align: center;
   background-image: url("./images//bg-curvy-desktop.svg");
   background-position: center;
-  background-size: 100%;
+  background-size: 100% 270px;
   background-repeat: no-repeat;
   width: 100%;
-  margin-top: 10px;
+  min-width: 100vh;
+  margin-top: 5px;
+ 
  
 }
 .text {
-  font-size: 30px;
+  font-size: 32px;
   color: hsl(0, 0%, 100%);
   margin-bottom: 20px;
-  width: 50%;
+  width: 40%;
   margin: auto;  
 }
 .text2 {
-  width: 50%;
+  width: 35%;
   margin: auto;
   font-size: 14px;
   color: hsl(0, 0%, 100%);
@@ -130,6 +132,11 @@ nav ul li a{
 }
 .text-display {
   margin-top: 90px;
+ 
+} 
+.text-display p {
+  margin-top: 20px;
+ 
 } 
 .display-link {
   color: hsl(176, 68%, 64%) 
@@ -178,7 +185,8 @@ nav ul li a{
 }
 .advert-text {
   margin-left: 9px;
-  margin-top: 4px;
+  margin-top: -4px;
+  align-items: left;
 }
 .search {
   width: 50%;
