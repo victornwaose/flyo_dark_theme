@@ -398,6 +398,8 @@ footer{
      justify-content: center;
      align-items: center;
      margin-top: 20px;
+     margin-bottom: 40px
+     ;
    } 
   footer{
     background-color: hsl(216, 53%, 9%);
