@@ -116,6 +116,7 @@ nav ul li a{
 .hero-text{
   text-align: center;
   color: hsl(0, 0%, 100%);
+  width: 50%;
 }
 .product_display {
   display: flex;
@@ -128,6 +129,7 @@ nav ul li a{
   margin: 20px auto auto 30px;
   text-align: left;
   color: hsl(0, 0%, 100%);
+  width: 50%;
   
 }
 .text-display {
@@ -200,7 +202,7 @@ nav ul li a{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -1723px;
+  bottom: -1891px;
 }
 .inputs {
   display: flex;
@@ -230,13 +232,13 @@ footer{
   color: hsl(0, 0%, 100%);
 }
 .footer-logo{
-  width: 30%;
+  width: 50%;
   
 }
 .footer-location{
   display: flex;
   margin-top: 20px;
-  width: 30%;
+  width: 70%;
 }
 .footer-location .location {
   width: 10%;
@@ -328,6 +330,7 @@ footer{
     place-items: center;
     font-size: 14px;
     width: 100%;
+    font-weight: 400;
     
   }
   .Nav {
@@ -336,6 +339,9 @@ footer{
     background: hsl(219, 30%, 18%);
     align-items: center;
     padding:  0;
+    }
+    nav ul li{
+      margin: 0 6px;
     }
     .hero img{
       width: 50%;
@@ -358,6 +364,9 @@ footer{
     font-size: 10px;
   
   }
+  .hero-text{
+    width: 93%;
+  }
   .product {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -367,6 +376,13 @@ footer{
     width: 100%;
     margin-bottom: 40px;
   }
+  .display-text {
+    margin: 20px auto auto 30px;
+    text-align: left;
+    color: hsl(0, 0%, 100%);
+    width: 70%;
+    
+  }
   .search {
    
     padding: 90px 24px;
@@ -374,7 +390,7 @@ footer{
      position: absolute;
      left: 50%;
      transform: translateX(-50%);
-     bottom: -23px;
+     top: 2663px;
    }
    .inputs {
      display: flex;
