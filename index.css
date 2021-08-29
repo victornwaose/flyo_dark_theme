@@ -164,7 +164,7 @@ nav ul li a{
 .advert-card{
   border: 1px solid hsl(219, 30%, 18%);
   background-color: hsl(219, 30%, 18%);
-  width: 60%;
+  width: 100%;
   max-width: 1160px;
   height: 196px;
   align-items: center;
@@ -236,6 +236,7 @@ footer{
 .footer-location{
   display: flex;
   margin-top: 20px;
+  width: 30%;
 }
 .footer-location .location {
   width: 10%;
@@ -280,7 +281,7 @@ footer{
     text-align: center;
     background-image: url("./images//bg-curvy-desktop.svg");
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
     margin-top: 10px; 
@@ -321,6 +322,14 @@ footer{
   }
 }
 @media screen and (max-width: 490px) {
+  body {
+    font-weight: 700;
+    line-height: 1.0;
+    place-items: center;
+    font-size: 14px;
+    width: 100%;
+    
+  }
   .Nav {
     display: flex;
     justify-content: space-between;
@@ -329,11 +338,17 @@ footer{
     padding:  0;
     }
     .hero img{
-      width: 70%;
+      width: 50%;
     }
   .hero_text {
     text-align: center;
     background-image: url("./images/bg-curvy-mobile.svg");
+    background-position: center;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    width: 292px;
+    min-width: 55vh;
+    margin-top: 5px;
    
   }
   .text {
@@ -352,88 +367,55 @@ footer{
     width: 100%;
     margin-bottom: 40px;
   }
-  footer {
-    display:  flex;
-    flex-direction:  column;
-    width: 100%;
+  .search {
+   
+    padding: 90px 24px;
+    width: 94%;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     bottom: -23px;
+   }
+   .inputs {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+   } 
+  footer{
     background-color: hsl(216, 53%, 9%);
+    padding: 81px 80px 49px 17px;;
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+  }
+  .footer-logo{
+    width: 120%;
     
-    
-    }
-    .logo {
-      width: 40%;
-      margin-left:  10px;
-      margin-top: 75px;
-    }
-  
-     .footer-header {
-      display:  flex;
-      flex-direction:  column;
-      align-items: center;
-      width: 90%;
-     } 
-    .col-1{
-      display: flex;
-      flex-direction: column;
-      width: 90%;
-      margin-left:  0px;
-      margin-top: 25px;
-    }
-    .location{
-      width: 20px;
-      height: 20px;
-      margin-left: 9px;
-    }
-    .location-text{
-      margin-left: 10px;
-      color: hsl(0, 0%, 100%); 
-    }
-    .col-2 {
-     
-      width: 10%;
-      margin-left:  10px;
-      margin-top: 61px;
-      color: hsl(0, 0%, 100%); 
-    }
-    .Tele {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 10px;
-    }
-    .Tele p {
-      margin-left: 20px;
-    }
-    .email{
-      display: flex;
-      flex-direction: column;
-    
-    }
-    .email p {
-      margin-left: 20px;
-    }
-    .col-3{
-      display:  flex;
-      flex-direction: column;
-      width: 80%;
-      margin-left:  10px;
-      margin-top: 61px;
-     
-    }
-    .col-3 a {
-      margin-left:  10px;
-      color: hsl(0, 0%, 100%);
-      text-decoration: none;
-    }
-    .col-4{
-      display:  flex;
-      flex-direction:  column;
-      width: 80%;
-      margin-left:  10px;
-      margin-top: 61px;
-    }
-    .col-4 a {
-      margin-left:  10px;
-      color: hsl(0, 0%, 100%);
-      text-decoration: none;
-    }
+  }
+  .footer-location{
+    display: flex;
+    margin-top: 20px;
+    width: 50%;
+  }
+  .footer-contact{
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 80%;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+  .footer-more-links {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
 }
